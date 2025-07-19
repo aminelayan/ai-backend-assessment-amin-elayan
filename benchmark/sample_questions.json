@@ -1,0 +1,10 @@
+[
+  {
+    "question": "What technologies does Eltrion use?",
+    "expected": "Eltrion uses FastAPI, LangChain, Ollama, PostgreSQL, and Redis."
+  },
+  {
+    "question": "How does Eltrion update its knowledge?",
+    "expected": "It re-embeds training data nightly and stores vectors in ChromaDB."
+  }
+]

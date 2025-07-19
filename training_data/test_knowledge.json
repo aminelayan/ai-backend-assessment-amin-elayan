@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "topic": "Eltrion Overview",
+    "content": "Eltrion is an internal AI assistant designed to support RAG-based document generation, conversation memory, and internal knowledge search. It uses FastAPI, PostgreSQL, Redis, and Ollama."
+  },
+  {
+    "id": 2,
+    "topic": "Training and Refresh",
+    "content": "Every night, Eltrion ingests new text and JSON files, re-embeds them into a vector store, and performs a self-evaluation process to improve accuracy."
+  },
+  {
+    "id": 3,
+    "topic": "Tech Stack",
+    "content": "Eltrion is built using Python, LangChain, FastAPI, ChromaDB, PostgreSQL, Redis, and integrates with local CPU-optimized language models."
+  }
+]

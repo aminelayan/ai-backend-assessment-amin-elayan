@@ -1,0 +1,5 @@
+Eltrion is the in-house AI assistant developed to automate document generation, retrieval-augmented generation (RAG), and internal question answering.
+
+It is powered by a local language model with CPU-optimized embeddings. Eltrion continuously learns from uploaded text, JSON files, and structured PostgreSQL data.
+
+Nightly, it performs ingestion, re-embedding, and self-evaluation to improve accuracy. The backend system is written in Python using FastAPI and LangChain, with Redis for memory and PostgreSQL for persistent storage.
